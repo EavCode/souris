@@ -38,7 +38,7 @@ a:hover{
 	color: #333;
 	text-decoration: underline;
 }
- 
+
  
  img{
 	 max-width: 100% !important;
@@ -230,6 +230,30 @@ a:hover{
  h1,h2,h3,h4,h5,h6{
    color: #333;
  }
+ 
+ table {
+	 box-sizing: border-box;
+    width:100%;
+  }
+ table, th, td {
+      border-bottom: 1px solid #e0e0e0;
+      border-collapse: collapse;
+      color: #444;
+  }
+  th, td {
+      padding: 15px;
+      text-align: left;
+  
+  }
+  tr{
+    padding-top: 15px ;
+  }
+  tr:hover{
+      background-color:#f5f5f5;
+      cursor: pointer;
+      
+    }
+ 
  button{
    display: inline-block;
   -webkit-box-sizing: content-box;
@@ -349,7 +373,20 @@ a:hover{
    border: 1px solid #f57c00;
   background: #ffa726;
  }
- 
+ .default{
+   border: 1px solid #bdbdbd;
+   background: white;
+   color: #333;
+   text-shadow: -1px -1px 0 rgba(44, 62, 80,0.1) ;
+ }
+ .default:hover{
+   border: 1px solid #bdbdbd;
+  background-color: #e0e0e0;
+ }
+ .default:active{
+   border: 1px solid #bdbdbd;
+  background: #e0e0e0;
+ }
  .white{
 	 color: white;
  }
@@ -379,6 +416,9 @@ a:hover{
    display: block;
 	 box-sizing: border-box;
 	 width: 100%;
+ }
+ .text-center{
+   text-align: center;
  }
  .elarge-1{
    width: 10%;
@@ -540,7 +580,9 @@ a:hover{
       width: 100%;
       float: left;
     }
-    
+    .elarge-hide{
+      display: none;
+    }
     
  
  /* large grid, max-width 1024px */
@@ -705,6 +747,13 @@ a:hover{
       width: 100%;
       float: left;
     }
+    .large-hide{
+      display: none;
+    }
+    .elarge-hide{
+      display: block;
+    }
+    
  }
  
  /* medium grid, max-width 800px */
@@ -872,6 +921,13 @@ a:hover{
       width: 100%;
       float: left;
     }
+    .medium-hide{
+      display: none;
+    }
+    .elarge-hide{
+      display: block;
+    }
+ 
  }
  
  /*small grid, max-width 500px */
@@ -1039,6 +1095,13 @@ a:hover{
       width: 100%;
       float: left;
     }
+    .small-hide{
+      display: none;
+    }
+    .elarge-hide{
+      display: block;
+    }
+
  }
  
  
