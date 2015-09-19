@@ -39,7 +39,7 @@
 }
 .sidebar-link{
 	padding: 10px;
-	border-left: 3px solid #aaa;
+	border-left: 3px solid #eee;
 	margin-bottom: 2px;
 }
 .sidebar-link:hover{
@@ -56,10 +56,40 @@
 	cursor: pointer;
 	border-left: 3px solid mediumvioletred;
 }
+.main-area{
+	border-left: 1px solid #eeeeee;
+	min-height: 100%;
+}
+.color{
+	height: 30px;
+	background-color: #222;
+	margin-top: 5px;
+	color: ghostwhite;
+}
+.input-code{
+	background-color: #222;
+	color: white;
+}
+.code-area{
+	background-color: #222;
+	color: white;
+}
+.footer{
+	background-color: #333;
+	padding: 20px 0;
+}
+.download-logo{
+	padding: 40px 0;
+}
+
+@media(max-width:800px){
+	
+}
 
 @media(max-width:500px){
 	.nav{
 		text-align: center;
 		margin-top: -30px;
 	}
+	
 }

@@ -28,7 +28,7 @@
 	 font-size: 1em;
    line-height: 1.4; 
 	 color: #333;
-	   
+	 word-wrap: break-word  
 	 }
 a{
 	color: #444;
@@ -39,7 +39,37 @@ a:hover{
 	text-decoration: underline;
 }
 
- 
+pre{
+  position: relative;
+  direction: ltr;
+  background-color: #333;
+  color: #eee;
+  padding-top: 10px;
+}
+.symbol{
+  color: #eee;
+}
+.tagname{
+  color: #3f51b5;
+}
+.attr{
+  color: #2196f3;
+}
+.value{
+  color: #f57f17;
+}
+ xmp{
+   float: left !important;
+   text-align: left;
+   background-color: #333;
+   color: #f48fb1;
+   padding: 10px 10px 20px 10px;
+   border-bottom: 5px solid #006064;
+   width: 100%;
+   word-wrap: break-word;
+   white-space: pre-line;
+   font-size: 1.2em;
+ }
  img{
 	 max-width: 100% !important;
 	 height: auto;
@@ -411,6 +441,7 @@ a:hover{
 	 width: 90%;
 	 margin: 0 auto;
    padding: 10px 0;
+   word-wrap: break-word
  }
  .full{
    display: block;
@@ -464,7 +495,7 @@ a:hover{
     
  .ruler{
    height: 1px;
-   background-color: #666;
+   background-color: #eee;
    width: 95%;
    margin: 0 auto;
  }   
@@ -697,6 +728,7 @@ a:hover{
    background-color: #ba68c8;
    border: 1px solid #8e24aa;
  }
+ 
 
 
  .elarge-1{
