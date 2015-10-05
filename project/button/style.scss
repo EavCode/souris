@@ -69,7 +69,7 @@
   cursor: pointer;
   background: #fff;
   color: $color;
-  border: 4px solid $color;
+  border: 2px solid $color;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -77,13 +77,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold;
- }
+  border-radius: 5px; }
 
  @mixin flat_button_color_hover($color){
   color: #fff;
-  background: $color + 50;
-  border: 4px solid $color;
+  background: $color;
+  border: 2px solid $color;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -95,7 +94,7 @@
 
  @mixin flat_button_color_active($color){
   background: $color + 20;
-  border: 4px solid $color;
+  border: 2px solid $color;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -280,4 +279,18 @@
  }
  .flat-brown:active{
   @include flat_button_color_active($brown);
+ }
+
+ .flat-white{
+  @include flat_button_color($white);
+  background: transparent;
+ }
+ .flat-white:hover{
+  @include flat_button_color_hover($white);
+  color: $grey;
+
+ }
+ .flat-white:active{
+  @include flat_button_color_active($white);
+  color: $grey;
  }

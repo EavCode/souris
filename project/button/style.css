@@ -389,7 +389,7 @@
   cursor: pointer;
   background: #fff;
   color: #333;
-  border: 4px solid #333;
+  border: 2px solid #333;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -397,12 +397,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-grey:hover {
   color: #fff;
-  background: #656565;
-  border: 4px solid #333;
+  background: #333;
+  border: 2px solid #333;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -411,7 +411,7 @@
 
 .flat-grey:active {
   background: #474747;
-  border: 4px solid #333;
+  border: 2px solid #333;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -425,7 +425,7 @@
   cursor: pointer;
   background: #fff;
   color: #f44336;
-  border: 4px solid #f44336;
+  border: 2px solid #f44336;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -433,12 +433,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-red:hover {
   color: #fff;
-  background: #ff7568;
-  border: 4px solid #f44336;
+  background: #f44336;
+  border: 2px solid #f44336;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -447,7 +447,7 @@
 
 .flat-red:active {
   background: #ff574a;
-  border: 4px solid #f44336;
+  border: 2px solid #f44336;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -461,7 +461,7 @@
   cursor: pointer;
   background: #fff;
   color: #9c27b0;
-  border: 4px solid #9c27b0;
+  border: 2px solid #9c27b0;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -469,12 +469,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-purple:hover {
   color: #fff;
-  background: #ce59e2;
-  border: 4px solid #9c27b0;
+  background: #9c27b0;
+  border: 2px solid #9c27b0;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -483,7 +483,7 @@
 
 .flat-purple:active {
   background: #b03bc4;
-  border: 4px solid #9c27b0;
+  border: 2px solid #9c27b0;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -497,7 +497,7 @@
   cursor: pointer;
   background: #fff;
   color: #2196f3;
-  border: 4px solid #2196f3;
+  border: 2px solid #2196f3;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -505,12 +505,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-blue:hover {
   color: #fff;
-  background: #53c8ff;
-  border: 4px solid #2196f3;
+  background: #2196f3;
+  border: 2px solid #2196f3;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -519,7 +519,7 @@
 
 .flat-blue:active {
   background: #35aaff;
-  border: 4px solid #2196f3;
+  border: 2px solid #2196f3;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -533,7 +533,7 @@
   cursor: pointer;
   background: #fff;
   color: #4caf50;
-  border: 4px solid #4caf50;
+  border: 2px solid #4caf50;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -541,12 +541,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-green:hover {
   color: #fff;
-  background: #7ee182;
-  border: 4px solid #4caf50;
+  background: #4caf50;
+  border: 2px solid #4caf50;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -555,7 +555,7 @@
 
 .flat-green:active {
   background: #60c364;
-  border: 4px solid #4caf50;
+  border: 2px solid #4caf50;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -569,7 +569,7 @@
   cursor: pointer;
   background: #fff;
   color: #fdd835;
-  border: 4px solid #fdd835;
+  border: 2px solid #fdd835;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -577,12 +577,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-yellow:hover {
   color: #fff;
-  background: #ffff67;
-  border: 4px solid #fdd835;
+  background: #fdd835;
+  border: 2px solid #fdd835;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -591,7 +591,7 @@
 
 .flat-yellow:active {
   background: #ffec49;
-  border: 4px solid #fdd835;
+  border: 2px solid #fdd835;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -605,7 +605,7 @@
   cursor: pointer;
   background: #fff;
   color: #ff9800;
-  border: 4px solid #ff9800;
+  border: 2px solid #ff9800;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -613,12 +613,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-orange:hover {
   color: #fff;
-  background: #ffca32;
-  border: 4px solid #ff9800;
+  background: #ff9800;
+  border: 2px solid #ff9800;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -627,7 +627,7 @@
 
 .flat-orange:active {
   background: #ffac14;
-  border: 4px solid #ff9800;
+  border: 2px solid #ff9800;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
@@ -641,7 +641,7 @@
   cursor: pointer;
   background: #fff;
   color: #795548;
-  border: 4px solid #795548;
+  border: 2px solid #795548;
   padding: 10px 20px;
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -649,12 +649,12 @@
   -moz-transition: all 300ms ease-in;
   -o-transition: all 300ms ease-in;
   transition: all 300ms ease-in;
-  font-weight: bold; }
+  border-radius: 5px; }
 
 .flat-brown:hover {
   color: #fff;
-  background: #ab877a;
-  border: 4px solid #795548;
+  background: #795548;
+  border: 2px solid #795548;
   -webkit-transition: height 0.5s ease;
   -moz-transition: height 0.5s ease;
   -ms-transition: height 0.5s ease;
@@ -663,10 +663,49 @@
 
 .flat-brown:active {
   background: #8d695c;
-  border: 4px solid #795548;
+  border: 2px solid #795548;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
   -o-transition: all 40ms ease-in;
   transition: all 40ms ease-in; }
+
+.flat-white {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  background: #fff;
+  color: #fafafa;
+  border: 2px solid #fafafa;
+  padding: 10px 20px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  border-radius: 5px;
+  background: transparent; }
+
+.flat-white:hover {
+  color: #fff;
+  background: #fafafa;
+  border: 2px solid #fafafa;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.5s ease;
+  -ms-transition: height 0.5s ease;
+  -o-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+  color: #333; }
+
+.flat-white:active {
+  background: white;
+  border: 2px solid #fafafa;
+  -webkit-transition: all 40ms ease-in;
+  -moz-transition: all 40ms ease-in;
+  -o-transition: all 40ms ease-in;
+  transition: all 40ms ease-in;
+  color: #333; }
 
 /*# sourceMappingURL=style.css.map */
