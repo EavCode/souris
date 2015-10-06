@@ -1,0 +1,202 @@
+
+$medium: 800px;
+$small: 480px;
+
+$col1: 4.1666666666667%;
+$col2: 8.3333333333333%;
+$col3: 12.5%;
+$col4: 16.666666666667%;
+$col5: 20.833333333333%;
+$col6: 25%;
+$col7: 29.166666666667%;
+$col8: 33.333333333333%;
+$col9: 37.5%;
+$col10: 41.666666666667%;
+$col11: 45.833333333333%;
+$col12: 50%;
+$col13: 54.166666666667%;
+$col14: 58.333333333333%;
+$col15: 62.5%;
+$col16: 66.666666666667%;
+$col17: 70.833333333333%;
+$col18: 75%;
+$col19: 79.166666666667%;
+$col20: 83.333333333333%;
+$col21: 87.5%;
+$col22: 91.666666666667%;
+$col23: 95.833333333333%;
+$col24: 100%; 
+
+.row{
+	width: $col24;
+	float: left;
+}
+
+.lg-1{
+	float: left;
+	width: $col1;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-2{
+	float: left;
+	width: $col2;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-3{
+	float: left;
+	width: $col3 ;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-4{
+	float: left;
+	width: $col4;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-5{
+	float: left;
+	width: $col5;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-6{
+	float: left;
+	width: $col6;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-7{
+	float: left;
+	width: $col7;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-8{
+	float: left;
+	width: $col8;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-9{
+	float: left;
+	width: $col9;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-10{
+	float: left;
+	width: $col10;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-11{
+	float: left;
+	width: $col11;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-12{
+	float: left;
+	width: $col12;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-13{
+	float: left;
+	width: $col13;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-14{
+	float: left;
+	width: $col14;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-15{
+	float: left;
+	width: $col15;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-16{
+	float: left;
+	width: $col16;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-17{
+	float: left;
+	width: $col17;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-18{
+	float: left;
+	width: $col18;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-19{
+	float: left;
+	width: $col19;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-20{
+	float: left;
+	width: $col20;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-21{
+	float: left;
+	width: $col21;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-22{
+	float: left;
+	width: $col22;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-23{
+	float: left;
+	width: $col23;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
+.lg-24{
+	float: left;
+	width: $col24;
+	@media only screen and (max-width : $medium) {
+		width: 100%;
+    }
+}
