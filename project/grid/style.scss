@@ -32,6 +32,21 @@ $col24: 100%;
 	float: left;
 }
 
+.col{
+	padding: 30px;
+  	box-sizing: border-box;
+	  @media only screen and (max-width : $medium) {
+		padding: 20px;
+    }
+	@media only screen and (max-width : $small) {
+		padding: 10px;
+    }
+}
+
+.centered{
+	margin: 0 auto;
+}
+
 .lg-1{
 	float: left;
 	width: $col1;
@@ -451,4 +466,101 @@ $col24: 100%;
 	@media only screen and (max-width : $small) {
 		width: $col24;
     }
+}
+
+.sm-1{
+	float: left;
+	width: $col1;
+}
+.sm-2{
+	float: left;
+	width: $col2;
+}
+.sm-3{
+	float: left;
+	width: $col3;
+}
+.sm-4{
+	float: left;
+	width: $col4;
+}
+.sm-5{
+	float: left;
+	width: $col5;
+}
+.sm-6{
+	float: left;
+	width: $col6;
+}
+.sm-7{
+	float: left;
+	width: $col7;
+}
+.sm-8{
+	float: left;
+	width: $col8;
+}
+.sm-9{
+	float: left;
+	width: $col9;
+}
+.sm-10{
+	float: left;
+	width: $col10;
+}
+.sm-11{
+	float: left;
+	width: $col11;
+}
+.sm-12{
+	float: left;
+	width: $col12;
+}
+.sm-13{
+	float: left;
+	width: $col13;
+}
+.sm-14{
+	float: left;
+	width: $col14;
+}
+.sm-15{
+	float: left;
+	width: $col15;
+}
+.sm-16{
+	float: left;
+	width: $col16;
+}
+.sm-17{
+	float: left;
+	width: $col17;
+}
+.sm-18{
+	float: left;
+	width: $col18;
+}
+.sm-19{
+	float: left;
+	width: $col19;
+}
+.sm-20{
+	float: left;
+	width: $col20;
+}
+.sm-21{
+	float: left;
+	width: $col21;
+}
+.sm-22{
+	float: left;
+	width: $col22;
+}
+.sm-23{
+	float: left;
+	width: $col23;
+}
+.sm-24{
+	float: left;
+	width: $col24;
 }

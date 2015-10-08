@@ -2,6 +2,19 @@
   width: 100%;
   float: left; }
 
+.col {
+  padding: 30px;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 800px) {
+    .col {
+      padding: 20px; } }
+  @media only screen and (max-width: 480px) {
+    .col {
+      padding: 10px; } }
+
+.centered {
+  margin: 0 auto; }
+
 .lg-1 {
   float: left;
   width: 4.16667%; }
@@ -419,5 +432,101 @@
   @media only screen and (max-width: 480px) {
     .md-24 {
       width: 100%; } }
+
+.sm-1 {
+  float: left;
+  width: 4.16667%; }
+
+.sm-2 {
+  float: left;
+  width: 8.33333%; }
+
+.sm-3 {
+  float: left;
+  width: 12.5%; }
+
+.sm-4 {
+  float: left;
+  width: 16.66667%; }
+
+.sm-5 {
+  float: left;
+  width: 20.83333%; }
+
+.sm-6 {
+  float: left;
+  width: 25%; }
+
+.sm-7 {
+  float: left;
+  width: 29.16667%; }
+
+.sm-8 {
+  float: left;
+  width: 33.33333%; }
+
+.sm-9 {
+  float: left;
+  width: 37.5%; }
+
+.sm-10 {
+  float: left;
+  width: 41.66667%; }
+
+.sm-11 {
+  float: left;
+  width: 45.83333%; }
+
+.sm-12 {
+  float: left;
+  width: 50%; }
+
+.sm-13 {
+  float: left;
+  width: 54.16667%; }
+
+.sm-14 {
+  float: left;
+  width: 58.33333%; }
+
+.sm-15 {
+  float: left;
+  width: 62.5%; }
+
+.sm-16 {
+  float: left;
+  width: 66.66667%; }
+
+.sm-17 {
+  float: left;
+  width: 70.83333%; }
+
+.sm-18 {
+  float: left;
+  width: 75%; }
+
+.sm-19 {
+  float: left;
+  width: 79.16667%; }
+
+.sm-20 {
+  float: left;
+  width: 83.33333%; }
+
+.sm-21 {
+  float: left;
+  width: 87.5%; }
+
+.sm-22 {
+  float: left;
+  width: 91.66667%; }
+
+.sm-23 {
+  float: left;
+  width: 95.83333%; }
+
+.sm-24 {
+  float: left;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
