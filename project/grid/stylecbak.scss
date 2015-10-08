@@ -52,12 +52,14 @@ $col24: 100%;
 }
 
 .lg-1{
+	float: left;
 	width: $col1;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-2{
+	float: left;
 	width: $col2;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
@@ -71,6 +73,7 @@ $col24: 100%;
     }
 }
 .lg-4{
+	float: left;
 	width: $col4;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
@@ -84,108 +87,126 @@ $col24: 100%;
     }
 }
 .lg-6{
+	float: left;
 	width: $col6;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-7{
+	float: left;
 	width: $col7;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-8{
+	float: left;
 	width: $col8;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-9{
+	float: left;
 	width: $col9;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-10{
+	float: left;
 	width: $col10;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-11{
+	float: left;
 	width: $col11;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-12{
+	float: left;
 	width: $col12;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-13{
+	float: left;
 	width: $col13;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-14{
+	float: left;
 	width: $col14;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-15{
+	float: left;
 	width: $col15;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-16{
+	float: left;
 	width: $col16;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-17{
+	float: left;
 	width: $col17;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-18{
+	float: left;
 	width: $col18;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-19{
+	float: left;
 	width: $col19;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-20{
+	float: left;
 	width: $col20;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-21{
+	float: left;
 	width: $col21;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-22{
+	float: left;
 	width: $col22;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
     }
 }
 .lg-23{
+	float: left;
 	width: $col23;
 	@media only screen and (max-width : $medium) {
 		width: 100%;
@@ -200,6 +221,7 @@ $col24: 100%;
 }
 
 .md-1{
+	float: left;
 	width: $col1;
 	@media only screen and (max-width : $medium) {
 		width: $col1;
@@ -210,6 +232,7 @@ $col24: 100%;
 }
 
 .md-1{
+	float: left;
 	width: $col1;
 	@media only screen and (max-width : $medium) {
 		width: $col1;
@@ -219,6 +242,7 @@ $col24: 100%;
     }
 }
 .md-2{
+	float: left;
 	width: $col2;
 	@media only screen and (max-width : $medium) {
 		width: $col2;
@@ -228,6 +252,7 @@ $col24: 100%;
     }
 }
 .md-3{
+	float: left;
 	width: $col3;
 	@media only screen and (max-width : $medium) {
 		width: $col3;
@@ -237,6 +262,7 @@ $col24: 100%;
     }
 }
 .md-4{
+	float: left;
 	width: $col4;
 	@media only screen and (max-width : $medium) {
 		width: $col4;
@@ -246,6 +272,7 @@ $col24: 100%;
     }
 }
 .md-5{
+	float: left;
 	width: $col5;
 	@media only screen and (max-width : $medium) {
 		width: $col5;
@@ -255,6 +282,7 @@ $col24: 100%;
     }
 }
 .md-6{
+	float: left;
 	width: $col6;
 	@media only screen and (max-width : $medium) {
 		width: $col6;
@@ -264,6 +292,7 @@ $col24: 100%;
     }
 }
 .md-7{
+	float: left;
 	width: $col7;
 	@media only screen and (max-width : $medium) {
 		width: $col7;
@@ -273,6 +302,7 @@ $col24: 100%;
     }
 }
 .md-8{
+	float: left;
 	width: $col8;
 	@media only screen and (max-width : $medium) {
 		width: $col8;
@@ -282,6 +312,7 @@ $col24: 100%;
     }
 }
 .md-9{
+	float: left;
 	width: $col9;
 	@media only screen and (max-width : $medium) {
 		width: $col9;
@@ -291,6 +322,7 @@ $col24: 100%;
     }
 }
 .md-10{
+	float: left;
 	width: $col10;
 	@media only screen and (max-width : $medium) {
 		width: $col10;
@@ -300,6 +332,7 @@ $col24: 100%;
     }
 }
 .md-11{
+	float: left;
 	width: $col11;
 	@media only screen and (max-width : $medium) {
 		width: $col11;
@@ -309,6 +342,7 @@ $col24: 100%;
     }
 }
 .md-12{
+	float: left;
 	width: $col12;
 	@media only screen and (max-width : $medium) {
 		width: $col12;
@@ -318,6 +352,7 @@ $col24: 100%;
     }
 }
 .md-13{
+	float: left;
 	width: $col13;
 	@media only screen and (max-width : $medium) {
 		width: $col13;
@@ -327,6 +362,7 @@ $col24: 100%;
     }
 }
 .md-14{
+	float: left;
 	width: $col14;
 	@media only screen and (max-width : $medium) {
 		width: $col14;
@@ -336,6 +372,7 @@ $col24: 100%;
     }
 }
 .md-15{
+	float: left;
 	width: $col15;
 	@media only screen and (max-width : $medium) {
 		width: $col15;
@@ -345,6 +382,7 @@ $col24: 100%;
     }
 }
 .md-16{
+	float: left;
 	width: $col16;
 	@media only screen and (max-width : $medium) {
 		width: $col16;
@@ -354,6 +392,7 @@ $col24: 100%;
     }
 }
 .md-17{
+	float: left;
 	width: $col17;
 	@media only screen and (max-width : $medium) {
 		width: $col17;
@@ -363,6 +402,7 @@ $col24: 100%;
     }
 }
 .md-18{
+	float: left;
 	width: $col18;
 	@media only screen and (max-width : $medium) {
 		width: $col18;
@@ -372,6 +412,7 @@ $col24: 100%;
     }
 }
 .md-19{
+	float: left;
 	width: $col19;
 	@media only screen and (max-width : $medium) {
 		width: $col19;
@@ -381,6 +422,7 @@ $col24: 100%;
     }
 }
 .md-20{
+	float: left;
 	width: $col20;
 	@media only screen and (max-width : $medium) {
 		width: $col20;
@@ -390,6 +432,7 @@ $col24: 100%;
     }
 }
 .md-21{
+	float: left;
 	width: $col21;
 	@media only screen and (max-width : $medium) {
 		width: $col21;
@@ -399,6 +442,7 @@ $col24: 100%;
     }
 }
 .md-22{
+	float: left;
 	width: $col22;
 	@media only screen and (max-width : $medium) {
 		width: $col22;
@@ -408,6 +452,7 @@ $col24: 100%;
     }
 }
 .md-23{
+	float: left;
 	width: $col23;
 	@media only screen and (max-width : $medium) {
 		width: $col23;
@@ -417,6 +462,7 @@ $col24: 100%;
     }
 }
 .md-24{
+	float: left;
 	width: $col24;
 	@media only screen and (max-width : $medium) {
 		width: $col24;
@@ -427,42 +473,55 @@ $col24: 100%;
 }
 
 .sm-1{
+	float: left;
 	width: $col1;
 }
 .sm-2{
+	float: left;
 	width: $col2;
 }
 .sm-3{
+	float: left;
 	width: $col3;
 }
 .sm-4{
+	float: left;
 	width: $col4;
 }
 .sm-5{
+	float: left;
 	width: $col5;
 }
 .sm-6{
+	float: left;
 	width: $col6;
 }
 .sm-7{
+	float: left;
 	width: $col7;
 }
 .sm-8{
+	float: left;
 	width: $col8;
 }
 .sm-9{
+	float: left;
 	width: $col9;
 }
 .sm-10{
+	float: left;
 	width: $col10;
 }
 .sm-11{
+	float: left;
 	width: $col11;
 }
 .sm-12{
+	float: left;
 	width: $col12;
 }
 .sm-13{
+	float: left;
 	width: $col13;
 }
 .sm-14{
@@ -470,33 +529,43 @@ $col24: 100%;
 	width: $col14;
 }
 .sm-15{
+	float: left;
 	width: $col15;
 }
 .sm-16{
+	float: left;
 	width: $col16;
 }
 .sm-17{
+	float: left;
 	width: $col17;
 }
 .sm-18{
+	float: left;
 	width: $col18;
 }
 .sm-19{
+	float: left;
 	width: $col19;
 }
 .sm-20{
+	float: left;
 	width: $col20;
 }
 .sm-21{
+	float: left;
 	width: $col21;
 }
 .sm-22{
+	float: left;
 	width: $col22;
 }
 .sm-23{
+	float: left;
 	width: $col23;
 }
 .sm-24{
+	float: left;
 	width: $col24;
 }
 
