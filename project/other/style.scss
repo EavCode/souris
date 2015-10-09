@@ -1,0 +1,39 @@
+/*!
+ * Souris v1.0 beta 2 (http://rith.work/souris)
+ * Copyright 2015 Souris.
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*
+ * Thanks to Google Color: https://www.google.com/design/spec/style/color.html
+ * Thanks to Neak Rattana (https://www.facebook.com/virgo.nana2012) for keep in touch and gives additional resources.
+ * Thanks to Rithy Thul (https://www.facebook.com/rithythul) for guide me to this project and more useful advice.
+ * Thanks to SSRSCHOOL (http://ssrschool.com) and Small World (http://smallworldcambodia.com) for workspace.
+*/
+
+body{
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	background-color: transparent;
+}
+
+
+.fit{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.no-margin{
+	margin: 0 !important;
+}
+
+.ruler{
+	width: 90%;
+	margin: 0 auto;
+	height: 1px;
+	background: rgba(236, 240, 241,0.8);
+}
