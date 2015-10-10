@@ -1,0 +1,30 @@
+ $white: #fafafa;
+ $grey: #333;
+ $red: #f44336;
+ $purple: #9c27b0;
+ $blue: #2196f3;
+ $green: #4caf50;
+ $yellow: #fdd835;
+ $orange: #ff9800;
+ $brown: #795548;
+/*!
+ * Souris v1.0 beta 2 (http://rith.work/souris)
+ * Copyright 2015 Souris.
+ */
+/*
+ * Thanks to Google Color: https://www.google.com/design/spec/style/color.html
+ * Thanks to Neak Rattana (https://www.facebook.com/virgo.nana2012) for keep in touch and gives additional resources.
+ * Thanks to Rithy Thul (https://www.facebook.com/rithythul) for guide me to this project and more useful advice.
+ * Thanks to SSRSCHOOL (http://ssrschool.com) and Small World (http://smallworldcambodia.com) for workspace.
+*/
+@import 'normalize';
+@import 'grid';
+@import 'img';
+@import 'btn';
+@import 'float';
+@import 'form';
+@import 'table';
+@import 'text';
+@import 'textalign';
+@import 'video';
+@import 'other';
