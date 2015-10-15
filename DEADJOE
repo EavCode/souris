@@ -1,0 +1,53 @@
+
+*** These modified files were found in JOE when it aborted on Thu Oct 15 11:41:12 2015
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/var/www/html/souris/.git/COMMIT_EDITMSG
+
+*** File '/var/www/html/souris/.git/COMMIT_EDITMSG'
+almost
+# Pleaseyy message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   project/Master/.sass-cache/34d1b243b8035fd172a096a4ffde0a6870c36139/_navbar.scssc
+#	modified:   project/Master/.sass-cache/34d1b243b8035fd172a096a4ffde0a6870c36139/souris.scssc
+#	modified:   project/Master/_navbar.scss
+#	modified:   project/Master/souris.css
+#	modified:   project/Master/souris.css.map
+#	modified:   project/Master/souris.scss
+#	deleted:    project/Master/style.css
+#
+
+*** These modified files were found in JOE when it aborted on Thu Oct 15 11:42:04 2015
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/var/www/html/souris/.git/COMMIT_EDITMSG
+
+*** File '/var/www/html/souris/.git/COMMIT_EDITMSG'
+almost
+# Pleaseit's not an  enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   DEADJOE
+#	modified:   project/Master/.sass-cache/34d1b243b8035fd172a096a4ffde0a6870c36139/_navbar.scssc
+#	modified:   project/Master/.sass-cache/34d1b243b8035fd172a096a4ffde0a6870c36139/souris.scssc
+#	modified:   project/Master/_navbar.scss
+#	modified:   project/Master/souris.css
+#	modified:   project/Master/souris.css.map
+#	modified:   project/Master/souris.scss
+#	deleted:    project/Master/style.css
+#
+
+*** These modified files were found in JOE when it aborted on Thu Oct 15 11:43:04 2015
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/var/www/html/souris/.git/COMMIT_EDITMSG
