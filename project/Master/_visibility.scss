@@ -1,0 +1,90 @@
+$medium: 800px;
+$small: 480px;
+
+.small-show{
+	display: none;
+	
+	@media only screen and (max-width : $medium) {
+		display: none;
+    }
+	@media only screen and (max-width : $small) {
+		display: inline-block;
+    }
+}
+
+.medium-show{
+	display: none; 
+	
+	@media only screen and (max-width : $medium) {
+		display: inline-block;
+    }
+	@media only screen and (max-width : $small) {
+		display: none;
+    }
+}
+
+.large-show{
+	display: inline-block; 
+	
+	@media only screen and (max-width : $medium) {
+		display: none;
+    }
+	@media only screen and (max-width : $small) {
+		display: none;
+    }
+}
+
+.medium-up-show{
+	display: inline-block;
+	
+	@media only screen and (max-width : $medium) {
+		display: inline-block;
+    }
+	@media only screen and (max-width : $small) {
+		display: none;
+    }
+}
+
+.medium-and-small-show{
+	display: none;
+	
+	@media only screen and (max-width : $medium) {
+		display: inline-block;
+    }
+	@media only screen and (max-width : $small) {
+		display: inline-block;
+    }
+}
+
+.small-hide{
+	display: inline-block;
+	
+	@media only screen and (max-width : $medium) {
+		display: inline-block;
+    }
+	@media only screen and (max-width : $small) {
+		display: none;
+    }
+}
+
+.medium-hide{
+	display: inline-block;
+	
+	@media only screen and (max-width : $medium) {
+		display: none;
+    }
+	@media only screen and (max-width : $small) {
+		display: inline-block;
+    }
+}
+
+.large-hide{
+	display: none;
+	
+	@media only screen and (max-width : $medium) {
+		display: inline-block;
+    }
+	@media only screen and (max-width : $small) {
+		display: inline-block;
+    }
+}
