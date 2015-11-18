@@ -2603,73 +2603,73 @@ blockquote {
 
 .small-show {
   display: none; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .small-show {
       display: none; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .small-show {
       display: inline-block; } }
 
 .medium-show {
   display: none; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .medium-show {
       display: inline-block; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .medium-show {
       display: none; } }
 
 .large-show {
   display: inline-block; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .large-show {
       display: none; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .large-show {
       display: none; } }
 
 .medium-up-show {
   display: inline-block; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .medium-up-show {
       display: inline-block; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .medium-up-show {
       display: none; } }
 
 .medium-and-small-show {
   display: none; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .medium-and-small-show {
       display: inline-block; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .medium-and-small-show {
       display: inline-block; } }
 
 .small-hide {
   display: inline-block; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .small-hide {
       display: inline-block; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .small-hide {
       display: none; } }
 
 .medium-hide {
   display: inline-block; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .medium-hide {
       display: none; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .medium-hide {
       display: inline-block; } }
 
 .large-hide {
   display: none; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .large-hide {
       display: inline-block; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     .large-hide {
       display: inline-block; } }
 

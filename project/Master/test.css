@@ -1,0 +1,15 @@
+.color{
+	background-color: #333;
+	height: 300px;
+	border-bottom: 2px solid white;
+}
+.color1{
+	background-color: red;
+	height: 300px;
+	border-bottom: 2px solid white;
+}
+.color2{
+	background-color: green;
+	height: 300px;
+	border-bottom: 2px solid white;
+}
