@@ -3,23 +3,125 @@
  * Copyright 2015 Souris.
  */
 /*
- * Thanks to Google Color: https://www.google.com/design/spec/style/color.html
- * Thanks to Neak Rattana (https://www.facebook.com/virgo.nana2012) for keep in touch and gives additional resources.
- * Thanks to Rithy Thul (https://www.facebook.com/rithythul) for guide me to this project and more useful advice.
- * Thanks to SSRSCHOOL (http://ssrschool.com) and Small World (http://smallworldcambodia.com) for workspace.
-*/
-/*
 @import 'normalize';
 @import 'grid';
 @import 'img';
 @import 'float';
-@import 'text';
+
 @import 'navbar';
-@import 'textalign';
 @import 'video';
 @import 'visibility';
-@import 'other';
+
 */
+.label {
+  padding: 5px;
+  color: white;
+  background-color: #757575;
+  border-radius: 5px; }
+
+.label.blue {
+  background-color: #039be5; }
+
+.label.red {
+  background-color: #d32f2f; }
+
+.label.green {
+  background-color: #4caf50; }
+
+.label.orange {
+  background-color: #ef6c00; }
+
+.label.transparent {
+  background-color: transparent;
+  color: #555;
+  border: 1px solid #555; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+a {
+  color: #2196f3;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333; }
+  h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label {
+    font-size: 0.7em; }
+
+p {
+  color: #333; }
+
+q {
+  color: #333;
+  font-style: italic; }
+
+blockquote {
+  color: #979797;
+  display: block;
+  padding: 10px;
+  background-color: #fbfbfb;
+  border-radius: 3px;
+  border-left: 3px solid #2196f3; }
+
+.inline-list {
+  list-style: none;
+  overflow: hidden;
+  padding: 0; }
+
+.inline-list > li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin-left: 1.375rem; }
+
+.inline-list > li > * {
+  display: block; }
+
+.fit {
+  width: 100%;
+  box-sizing: border-box; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.ruler {
+  width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  background: rgba(236, 240, 241, 0.8); }
+
+.red-color {
+  color: #f44336; }
+
+.green-color {
+  color: #4caf50; }
+
+.blue-color {
+  color: #2196f3; }
+
+.purple-color {
+  color: #9c27b0; }
+
+.yellow-color {
+  color: #fdd835; }
+
+.orange-color {
+  color: #ff9800; }
+
+.brown-color {
+  color: #795548; }
+
 /* button function */
 /* button hover function */
 /* button active function */
@@ -35,6 +137,7 @@
   background: #fafafa;
   border: 1px solid #c8c8c8;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -77,6 +180,7 @@
   background: #f44336;
   border: 1px solid #c21104;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -119,6 +223,7 @@
   background: #333;
   border: 1px solid #010101;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -161,6 +266,7 @@
   background: #9c27b0;
   border: 1px solid #6a007e;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -203,6 +309,7 @@
   background: #2196f3;
   border: 1px solid #0064c1;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -245,6 +352,7 @@
   background: #4caf50;
   border: 1px solid #1a7d1e;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -287,6 +395,7 @@
   background: #fdd835;
   border: 1px solid #cba603;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -329,6 +438,7 @@
   background: #ff9800;
   border: 1px solid #cd6600;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -371,6 +481,7 @@
   background: #795548;
   border: 1px solid #472316;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -413,6 +524,7 @@
   color: #333;
   border: 2px solid #333;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -432,7 +544,7 @@
   transition: height 0.5s ease; }
 
 .flat-grey:active {
-  background: #474747;
+  background: #656565;
   border: 2px solid #333;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -449,6 +561,7 @@
   color: #f44336;
   border: 2px solid #f44336;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -468,7 +581,7 @@
   transition: height 0.5s ease; }
 
 .flat-red:active {
-  background: #ff574a;
+  background: #ff7568;
   border: 2px solid #f44336;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -485,6 +598,7 @@
   color: #9c27b0;
   border: 2px solid #9c27b0;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -504,7 +618,7 @@
   transition: height 0.5s ease; }
 
 .flat-purple:active {
-  background: #b03bc4;
+  background: #ce59e2;
   border: 2px solid #9c27b0;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -521,6 +635,7 @@
   color: #2196f3;
   border: 2px solid #2196f3;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -540,7 +655,7 @@
   transition: height 0.5s ease; }
 
 .flat-blue:active {
-  background: #35aaff;
+  background: #53c8ff;
   border: 2px solid #2196f3;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -557,6 +672,7 @@
   color: #4caf50;
   border: 2px solid #4caf50;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -576,7 +692,7 @@
   transition: height 0.5s ease; }
 
 .flat-green:active {
-  background: #60c364;
+  background: #7ee182;
   border: 2px solid #4caf50;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -593,6 +709,7 @@
   color: #fdd835;
   border: 2px solid #fdd835;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -612,7 +729,7 @@
   transition: height 0.5s ease; }
 
 .flat-yellow:active {
-  background: #ffec49;
+  background: #ffff67;
   border: 2px solid #fdd835;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -629,6 +746,7 @@
   color: #ff9800;
   border: 2px solid #ff9800;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -648,7 +766,7 @@
   transition: height 0.5s ease; }
 
 .flat-orange:active {
-  background: #ffac14;
+  background: #ffca32;
   border: 2px solid #ff9800;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -665,6 +783,7 @@
   color: #795548;
   border: 2px solid #795548;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -684,7 +803,7 @@
   transition: height 0.5s ease; }
 
 .flat-brown:active {
-  background: #8d695c;
+  background: #ab877a;
   border: 2px solid #795548;
   -webkit-transition: all 40ms ease-in;
   -moz-transition: all 40ms ease-in;
@@ -701,6 +820,7 @@
   color: #fafafa;
   border: 2px solid #fafafa;
   padding: 10px 20px;
+  font-size: 1em;
   -o-text-overflow: clip;
   text-overflow: clip;
   -webkit-transition: all 300ms ease-in;
@@ -729,6 +849,15 @@
   -o-transition: all 40ms ease-in;
   transition: all 40ms ease-in;
   color: #333; }
+
+.small-button {
+  font-size: 0.8em;
+  padding: 7px 15px; }
+
+.tiny-button {
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 5px 10px; }
 
 input[type=text] {
   margin-bottom: 3px;
