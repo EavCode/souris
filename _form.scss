@@ -11,10 +11,11 @@ $white: #fafafa;
 
 @mixin text_input_style($color){
 	margin-bottom: 3px;
-	background: rgba(0, 0, 0, 0.07);
+	background: white;
 	padding: 10px;
-   border: 2px solid transparent;
-   border-radius: 3px;
+   border: 2px solid $white - 20;
+   border-radius: none;
+   box-shadow: none;
 }
 @mixin text_input_style_hover($color){
 	border-left: 2px solid $color + 50;
@@ -131,6 +132,9 @@ input[type=password]{
    &:hover{
    	@include text_input_style_hover($purple);
    }
+ }
+ input[type=submit]{
+   border-radius: 5px;
  }
 
  select{
