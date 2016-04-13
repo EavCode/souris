@@ -6,13 +6,19 @@
 @import 'normalize';
 @import 'grid';
 @import 'img';
-@import 'float';
+
 
 @import 'navbar';
 @import 'video';
 @import 'visibility';
 
 */
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
 .label {
   padding: 5px;
   color: white;
@@ -103,6 +109,12 @@ blockquote {
   margin: 0 auto;
   height: 1px;
   background: rgba(236, 240, 241, 0.8); }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 15%;
+  box-sizing: border-box; }
 
 .red-color {
   color: #f44336; }

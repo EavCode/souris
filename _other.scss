@@ -19,6 +19,12 @@
 	height: 1px;
 	background: rgba(236, 240, 241,0.8);
 }
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 15%;
+	box-sizing: border-box;
+}
 .red-color{
 	color: $red;
 }
