@@ -5,12 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@font-face { font-family: PTsans; src: url('ptsans.ttf'); } 
-html {
-  font-family: PTsans,sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
+
 
 /**
  * Remove default margin.
