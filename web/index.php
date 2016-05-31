@@ -1,32 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Souris CSS Frameworks</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="logo.png">
-	<link rel="stylesheet" href="css/foundation.min.css">
-	<link rel="stylesheet" href="css/souris.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header>
-		<nav class=" container text-center">
-			<ul>
-				<li><a href="http://github.com/Vannrith/souris.git" class="flat-purple">github</a></li>
-				<li><a href="http://rith.work">rith's</a></li>
-				<li><a href="documents">documentations</a></li>
-				<li><a href="download.php">download</a></li>
-			</ul>
-		</nav>
-	</header>
+<?php include 'include/head.php'; ?>
 	<aside class="container no-margin no-padding text-center banner">
 		<img src="img/logo-bg.png" alt="logo" class="b1"> <br>
 		<img src="img/banner-txt" alt="slogan" class="b2"> <br>
 		<img src="img/banner.png" alt="images" class="b3">
 	</aside>
 	
-	<main>
+	<main class="home-main">
 		<div class="container">
 
 			<div class="row marbutt">
@@ -78,14 +57,4 @@
 		</div>
 	</main>
 
-	<footer>
-		<p class="white-color">Design by SOURIS, front-end web developer of FREEDOMTEAM <br>
-		&copy;2015 - <?php echo date('Y');?> SOURIS, FREEDOMTEAM, CAMBODIA</p>
-	</footer>
-
-	<script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
+<?php include 'include/foot.php'; ?>
