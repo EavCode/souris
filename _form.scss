@@ -11,10 +11,10 @@ $white: #fafafa;
 
 @mixin text_input_style($color){
 	margin-bottom: 3px;
-	background: white;
+	background: rgba(0,0,0,0.1);
 	padding: 10px;
-   border: 2px solid $white - 20;
-   border-radius: none;
+   border: 2px solid rgba(0,0,0,0.2);
+   border-radius: 5px;
    box-shadow: none;
 }
 @mixin text_input_style_hover($color){

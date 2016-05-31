@@ -1,0 +1,96 @@
+nav>ul{
+	list-style-type: none;
+	padding-top: 10px;
+}
+nav>ul>li{
+	display: inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+nav>ul>li>a{
+	color: #999;
+}
+nav>ul>li>a:hover{
+	color: #333;
+}
+
+.banner{
+	background: #808080;
+}
+.banner>.b1{
+	width: 100px;
+	margin: 50px 0;
+}
+.banner>.b2{
+	width: 500px;
+	margin-bottom: 50px;
+}
+.banner>.b3{
+	width: 400px;
+}
+main{
+	margin-top: 30px;
+}
+
+.lef-but{
+	margin-bottom: 30px;
+}
+
+.marbutt{
+	margin-bottom: 20px;
+}
+
+.contrib{
+	background: #f2f2f2;
+	padding: 10px;
+
+}
+footer{
+	background: #808080;
+	color: white;
+	width: 100%;
+	height: 200px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+@media (max-width: 1024px)  {
+
+	nav>ul>li{
+		padding: 0 8px;
+		font-size: 0.8em;
+	}
+
+	.banner>.b1{
+		width: 80px;
+	}
+	.banner>.b2{
+		width: 400px;
+	}
+	.banner>.b3{
+		width: 300px;
+	}
+}
+
+@media (max-width: 640px)  {
+
+	nav>ul>li{
+		display: block;
+		padding: 5px 10px;
+		font-size: 0.8em;
+	}
+
+	.banner>.b1{
+		width: 50px;
+		margin-bottom: 30px;
+	}
+	.banner>.b2{
+		width: 200px;
+		margin-bottom: 30px;
+	}
+	.banner>.b3{
+		width: 200px;
+	}
+}

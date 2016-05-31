@@ -204,6 +204,17 @@
   @include button_color_active($brown);
  }
 
+  .button-black{
+  color: $white;
+  @include button_color($black);
+ }
+ .button-brown:hover{
+  @include button_color_hover($black);
+ }
+ .button-brown:active{
+  @include button_color_active($black);
+ }
+
  .flat-grey{
   @include flat_button_color($grey);
  }

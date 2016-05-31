@@ -1,4 +1,5 @@
-
+$medium: 1024px;
+$small: 640px;
 
 .fit{
 	width: 100%;
@@ -13,6 +14,31 @@
 	margin: 0 !important;
 }
 
+.box-pa-10{
+	padding: 10px;
+}
+
+.box-pa-20{
+	padding: 20px;
+}
+
+.box-pa-30{
+	padding: 30px;
+}
+
+.box-ma-10{
+	margin: 10px;
+}
+
+.box-ma-20{
+	margin: 20px;
+}
+
+.box-ma-30{
+	margin: 30px;
+}
+
+
 .ruler{
 	width: 90%;
 	margin: 0 auto;
@@ -24,6 +50,15 @@
 	margin: 0 auto;
 	padding: 10px 15%;
 	box-sizing: border-box;
+	@media only screen and (max-width : $medium) {
+		padding: 10px 10%;
+    }
+	@media only screen and (max-width : $small) {
+		padding: 10px 5%;
+    }
+}
+.white-color{
+	color: #fff;
 }
 .red-color{
 	color: $red;
@@ -45,6 +80,9 @@
 }
 .brown-color{
 	color: $brown;
+}
+.grey-color{
+	color: $grey;
 }
 .black-color{
 	color: #222;

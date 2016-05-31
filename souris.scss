@@ -12,20 +12,15 @@
  * Copyright 2015 Souris.
  */
 
-/*
-
-@import 'navbar';
-
-*/
+@import 'global';
 @import 'normalize';
 @import 'float';
-@import 'grid';
 @import 'img';
 @import 'text';
 @import 'video';
 @import 'other';
 @import 'btn';
-@import 'visibility';
 @import 'form';
 @import 'table';
+/* grid and visibility are removed but still in sass version*/
 
