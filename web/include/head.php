@@ -15,7 +15,7 @@
 			<ul>
 				<li><a href="http://github.com/Vannrith/souris.git" class="flat-purple">github</a></li>
 				<li><a href="http://rith.work">rith's</a></li>
-				<li><a href="documents">documentations</a></li>
+				<li><a href="doc.php">documentations</a></li>
 				<li><a href="download.php">download</a></li>
 			</ul>
 		</nav>
