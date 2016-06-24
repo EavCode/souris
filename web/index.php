@@ -1,7 +1,7 @@
 <?php include 'include/head.php'; ?>
 	<aside class="container no-margin no-padding text-center banner">
 		<img src="img/logo-bg.png" alt="logo" class="b1"> <br>
-		<img src="img/banner-txt" alt="slogan" class="b2"> <br>
+		<img src="img/banner-txt.png" alt="slogan" class="b2"> <br>
 		<img src="img/banner.png" alt="images" class="b3">
 	</aside>
 	

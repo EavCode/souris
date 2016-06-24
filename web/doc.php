@@ -6,7 +6,7 @@
 
 		<div class="small-12 columns learn-section">
 			<ul>
-				<li><a href="#overview">Overview</a></li>
+				<li><a href="#overview" name="top">Overview</a></li>
 				<li><a href="#font">Font</a></li>
 				<li><a href="#padding">Padding and Margin</a></li>
 				<li><a href="#image">Image</a></li>
@@ -19,7 +19,17 @@
 		</div>
 
 		<div class="small-12 columns whole-body">
-			
+			<div class="container">
+				<?php include 'include/overview.php'; ?>
+				<?php include 'include/font.php'; ?>
+				<?php include 'include/padding.php'; ?>
+				<?php include 'include/image.php'; ?>
+				<?php include 'include/video.php'; ?>
+				<?php include 'include/text.php'; ?>
+				<?php include 'include/button.php'; ?>
+				<?php include 'include/form.php'; ?>
+				<?php include 'include/more.php'; ?> 
+			</div>
 		</div>
 
 	</main>
